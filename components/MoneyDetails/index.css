@@ -1,0 +1,47 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 767px) {
+  .main-container {
+    margin: 5%;
+  }
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 15px;
+}
+.heading {
+  color: #475569;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 1%;
+}
+.amount {
+  color: #475569;
+  font-weight: 800;
+  font-size: 35px;
+}
+.image {
+  width: 25%;
+  margin-right: 5%;
+}
+.border1 {
+  border: 2px solid #84cc16;
+  background-color: #cffafe;
+}
+.border2 {
+  border: 2px solid #06b6d4;
+  background-color: #ede9fe;
+}
+.border3 {
+  border: 2px solid #7c3aed;
+  background-color: #cbd5e1;
+}
