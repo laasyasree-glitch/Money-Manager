@@ -39,7 +39,9 @@ const MoneyDetails = props => {
         />
         <div>
           <p className="heading">Your Balance</p>
-          <p className="amount">Rs. {balanceAmount}</p>
+          <p className="amount" testid="balanceAmount">
+            Rs. {balanceAmount}
+          </p>
         </div>
       </div>
     </div>

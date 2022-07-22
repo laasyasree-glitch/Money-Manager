@@ -13,7 +13,7 @@ const TransactionItem = props => {
       <p className="transaction-text">{title}</p>
       <p className="transaction-text">Rs {amount}</p>
       <p className="transaction-text">{type}</p>
-      <div className="delete-container">
+      <div>
         <button
           className="delete-button"
           type="button"

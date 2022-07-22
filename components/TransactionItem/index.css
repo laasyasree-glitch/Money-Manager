@@ -9,13 +9,12 @@
   font-weight: bold;
   font-family: sans-serif;
 }
+.delete-img {
+  width: 50%;
+}
 .delete-button {
-  background: transparent;
+  background-color: transparent;
   outline: none;
   border: none;
   cursor: pointer;
-}
-.delete-container {
-  display: flex;
-  width: 10%;
 }

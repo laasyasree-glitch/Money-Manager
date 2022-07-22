@@ -133,13 +133,14 @@ class MoneyManager extends Component {
         />
         <div className="card-2">
           <form className="form">
-            <h1 className="heading">Add Transactions</h1>
+            <h1 className="history-heading">Add Transactions</h1>
             <label htmlFor="title">TITLE</label>
             <input
               onChange={this.onChangeTitleInput}
               className="input"
               type="text"
               placeholder="TITLE"
+              id="title"
               value={titleInput}
             />
             <label htmlFor="amount">AMOUNT</label>
@@ -148,6 +149,7 @@ class MoneyManager extends Component {
               className="input"
               type="text"
               placeholder="AMOUNT"
+              id="amount"
               value={amountInput}
             />
             <label htmlFor="select">TYPE</label>
@@ -168,7 +170,7 @@ class MoneyManager extends Component {
             </button>
           </form>
           <div className="history-transactions">
-            <h1 className="heading">History</h1>
+            <h1 className="history-heading">History</h1>
             <ul className="history-content">
               <li className="table-header">
                 <p className="table-content">TITLE</p>
